@@ -1,0 +1,6 @@
+#run = "(trap 'kill 0' SIGINT; php -q -S 0.0.0.0:6969 status.log & bash Startup.sh)"
+
+run = "echo 'No this repl is not broken, you need to fork it and change the run command to the one above in this .replit file'"
+
+[nix]
+channel="stable-21_11"
